@@ -15,3 +15,17 @@ console.log(status,typeof status);
 console.log(address,typeof address);
 
 
+/*.....................................
+        data type example
+.......................................*/
+
+var a = 14;
+var b =14;
+var c = 14;
+var d = 15
+//data assign of Multiple Variable in one line
+var a = 14,b = 14,c = 14,d = 15;
+//simple 
+var a = b = c =14;
+var d = 15
+console.log(a,b,c,d)
