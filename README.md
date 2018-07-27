@@ -7,12 +7,6 @@ __This will also be bold__
 
 First Header | Second Header
 ------------ | ------------
-Content cell 1 | Content cell 2 
-Content column 1 | Content column 2
+Basic JS | Example 
+Variable,Condition,Loop,Array,Function | Every Topic
 
-
-```javascript
-function test() { 
-console.log("look ma’, no spaces"); 
-}
-```
