@@ -1,11 +1,32 @@
-/**********************************
-  Operator  +, -, *, /, %, ++, --
-***********************************/
-//Cost of eggs -calculator
-var priceOfegg = 5;
-var numberOfEggs=10;
-var total = priceOfegg*numberOfEggs;
-console.log('Total cost of eggs',total,'tk');
+/************************
+  Arithmetic Operators 
+    + - * / % ++ -- 
+**************************/
+// increment & decrement
+var x= 4;
+x++;// x = x + 1
+x--;//x = x - 1
+console.log(x);//Output 4
+
+// post increment and pre increment
+var x;
+var y=4;
+x= y++;//x=y;then y= y+1;
+x = ++y;//y=y+1; then x=y;
+console.log(x,y);//Output x= 6 y= 6
+
+// post decrement and pre decrement
+var x;
+var y=4;
+x= --y;//y=y-1; then x=y //Output x=3 y=3
+x=y--;//x=y then y=y-1
+console.log(x,y);//Output x=3 y=2
+
+//Total number calculate
+var number1 = 10;
+var number2=10;
+var total = number1 + number2;
+console.log('Total Number is =',total);
 
 //circle of area
 var radius = 7;
