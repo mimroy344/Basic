@@ -4,6 +4,7 @@
 //     return 'Hello,'+name;
 // }
 
+
 // 1.a fucntion can be stored in a variable
 
 // var hello =sayName;//function er reference pass hocce
